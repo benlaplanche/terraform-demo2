@@ -12,7 +12,6 @@ resource "aws_iam_account_password_policy" "strict" {
   minimum_password_length        = 8
   allow_users_to_change_password = false
   password_reuse_prevention      = 24
-  max_password_age               = 3
 }
 
 resource "aws_s3_bucket" "insecure-bucket" {
