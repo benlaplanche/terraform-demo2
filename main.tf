@@ -17,3 +17,5 @@ resource "aws_iam_account_password_policy" "strict" {
 resource "aws_s3_bucket" "insecure-bucket" {
   bucket = "insecure-bucket"
 }
+
+
